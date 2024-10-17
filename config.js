@@ -1,5 +1,7 @@
 export const WEDDING_INVITATION_URL = "http://localhost:8000/";
 export const KAKAOTALK_API_TOKEN = "JavaScript 키 입력";
+export const KAKAOTALK_SHARE_IMAGE =
+  "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
 
 export const WEDDING_DATE = "2024년 12월 21일, 토요일 오전 11시 30분";
 export const WEDDING_LOCATION = "백주년 기념관 웨딩홀 네오트로";
@@ -9,9 +11,13 @@ export const GROOM_ACCOUNT_NUMBER = "우리은행 1002-347-211847";
 
 export const GROOM_FATHER_NAME = "박영환";
 export const GROOM_MOTHER_NAME = "김춘순";
+export const GROOM_FATHER_ACCOUNT_NUMBER = "";
+export const GROOM_MOTHER_ACCOUNT_NUMBER = "";
 
 export const BRIDE_NAME = "곽수영";
 export const BRIDE_ACCOUNT_NUMBER = "우리은행 1002-342-138284";
 
 export const BRIDE_FATHER_NAME = "곽태운";
 export const BRIDE_MOTHER_NAME = "정영선";
+export const BRIDE_FATHER_ACCOUNT_NUMBER = "";
+export const BRIDE_MOTHER_ACCOUNT_NUMBER = "";

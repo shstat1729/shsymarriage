@@ -69,7 +69,6 @@ const Greeting = () => {
         <br />
         <br />
         평생의 응원으로 여기며 살아가겠습니다.
-        
       </Content>
       <GroomBride data-aos="fade-up">
         {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
