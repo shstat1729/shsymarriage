@@ -82,7 +82,7 @@ const CongratulatoryMoney = () => {
         plain
         style={{ marginTop: 0, marginBottom: 32 }}
       >
-        <Title>축의금은 이곳으로 보내주세요</Title>
+        <Title>축의금 계좌 정보</Title>
       </Divider>
       <Image src={Flower} />
       
@@ -158,7 +158,7 @@ const CongratulatoryMoney = () => {
         </div>
 
         <div>
-          <b>부 {BRIDE_FATHER_NAME}</b>
+          <b>부    {BRIDE_FATHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={BRIDE_FATHER_ACCOUNT_NUMBER}>
             <Button
