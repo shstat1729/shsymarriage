@@ -39,8 +39,8 @@ const Title = styled.p`
 // Create a styled ImageGallery with fixed width and height
 const StyledImageGallery = styled(ImageGallery)`
   .image-gallery-image {
-    width: 500px;  // Set your desired width
-    height: 300px;  // Set your desired height
+    width: 100px;  // Set your desired width
+    height: 100px;  // Set your desired height
   }
 `;
 
