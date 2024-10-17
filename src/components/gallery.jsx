@@ -36,6 +36,13 @@ const Title = styled.p`
   margin-bottom: 0;
   text-align: center;
 `;
+// Create a styled ImageGallery with fixed width and height
+const StyledImageGallery = styled(ImageGallery)`
+  .image-gallery-image {
+    width: 500px;  // Set your desired width
+    height: 300px;  // Set your desired height
+  }
+`;
 
 const images = [
   {

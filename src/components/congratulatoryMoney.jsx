@@ -8,15 +8,9 @@ import {
   GROOM_NAME,
   GROOM_ACCOUNT_NUMBER,
   
-  GROOM_FATHER_ACCOUNT_NUMBER,
-  
-  GROOM_MOTHER_ACCOUNT_NUMBER,
   BRIDE_NAME,
   BRIDE_ACCOUNT_NUMBER,
   
-  BRIDE_FATHER_ACCOUNT_NUMBER,
-  
-  BRIDE_MOTHER_ACCOUNT_NUMBER,
 } from "../../config";
 
 const Wrapper = styled.div`
@@ -101,7 +95,7 @@ const CongratulatoryMoney = () => {
             twoToneColor="#829fe0"
           />
           <br />
-          <SubContent>신랑측 계좌번호 확인</SubContent>
+          <SubContent>신랑 계좌번호 확인</SubContent>
         </ContactButton>
         <ContactButton data-aos="fade-up" onClick={() => setBrideVisible(true)}>
           <CheckCircleTwoTone
@@ -109,11 +103,11 @@ const CongratulatoryMoney = () => {
             twoToneColor="#fe7daf"
           />
           <br />
-          <SubContent>신부측 계좌번호 확인</SubContent>
+          <SubContent>신부 계좌번호 확인</SubContent>
         </ContactButton>
       </ButtonWrap>
       <Modal
-        title={<b>신랑측 계좌번호</b>}
+        title={<b>신랑 계좌번호</b>}
         visible={groomVisible}
         onOk={() => setGroomVisible(false)}
         onCancel={() => setGroomVisible(false)}
@@ -123,32 +117,7 @@ const CongratulatoryMoney = () => {
           </Description>,
         ]}
       >
-        <div>
-          <b>부 : ""</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={GROOM_FATHER_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {GROOM_FATHER_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
-        </div>
-        <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 : ""</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {GROOM_MOTHER_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
-        </div>
+
         <div>
           <b>신랑 {GROOM_NAME}</b>
           <Divider type="vertical" />
@@ -164,7 +133,7 @@ const CongratulatoryMoney = () => {
         </div>
       </Modal>
       <Modal
-        title={<b>신부측 계좌번호</b>}
+        title={<b>신부 계좌번호</b>}
         visible={brideVisible}
         onOk={() => setBrideVisible(false)}
         onCancel={() => setBrideVisible(false)}
@@ -174,32 +143,7 @@ const CongratulatoryMoney = () => {
           </Description>,
         ]}
       >
-        <div>
-          <b>부 : ""</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={BRIDE_FATHER_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {BRIDE_FATHER_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
-        </div>
-        <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 : ""</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={BRIDE_MOTHER_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {BRIDE_MOTHER_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
-        </div>
+
         <div>
           <b>신부 {BRIDE_NAME}</b>
           <Divider type="vertical" />
