@@ -25,7 +25,7 @@ const Image = styled.img`
 `;
 
 const Content = styled.p`
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1.75;
   opacity: 0.75;
   width: 100%;
@@ -108,7 +108,9 @@ const Location = () => {
       <Content>
         서울시 종로구 대학로3길 29
         <br />
-        지하철 1호선 종로5가역 2번 출구 5분거리, 4호선 혜화역 3번 출구 6분 거리
+        지하철 1호선 종로5가역 2번 출구 5분 거리
+        <br />
+        4호선 혜화역 3번 출구 6분 거리
 
       </Content>
     </Wrapper>
