@@ -112,7 +112,7 @@ const CongratulatoryMoney = () => {
         onOk={() => setGroomVisible(false)}
         onCancel={() => setGroomVisible(false)}
         footer={[
-          <Description>
+          <Description style={{ textAlign: 'center' }}>
             계좌번호 클릭시,<br />
             붙여넣기 가능한 텍스트로 복사됩니다.
           </Description>,
@@ -139,7 +139,7 @@ const CongratulatoryMoney = () => {
         onOk={() => setBrideVisible(false)}
         onCancel={() => setBrideVisible(false)}
         footer={[
-          <Description>
+          <Description style={{ textAlign: 'center' }}>
             계좌번호 클릭시,<br />
             붙여넣기 가능한 텍스트로 복사됩니다.
           </Description>,
