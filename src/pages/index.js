@@ -14,7 +14,6 @@ import CongratulatoryMoney from "../components/congratulatoryMoney";
 import Share from "../components/share";
 import Quote from "../components/quote";
 
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 // markup
