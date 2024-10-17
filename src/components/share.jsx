@@ -3,7 +3,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import { Button, Divider, message } from "antd";
 import { MessageFilled, LinkOutlined } from "@ant-design/icons";
 import styled from "styled-components";
-import HeartImage from "../assets/1.jpeg";
+
 import {
   KAKAOTALK_API_TOKEN,
   WEDDING_INVITATION_URL,
@@ -73,7 +73,7 @@ const Share = () => {
         content: {
           title: `${GROOM_NAME}❤${BRIDE_NAME} 결혼식에 초대합니다`,
           description: "아래의 '청첩장 열기' 버튼을 눌러 읽어주세요🤵👰",
-          imageUrl: HeartImage,
+          imageUrl: "https://github.com/shstat1729/shsymarriage/blob/main/src/assets/1.jpeg?raw=true",
           link: {
             mobileWebUrl: window.location.href,
             webUrl: window.location.href,
