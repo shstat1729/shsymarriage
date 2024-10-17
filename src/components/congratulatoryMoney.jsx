@@ -7,15 +7,15 @@ import Flower from "../assets/flower3.png";
 import {
   GROOM_NAME,
   GROOM_ACCOUNT_NUMBER,
-  GROOM_FATHER_NAME,
+  
   GROOM_FATHER_ACCOUNT_NUMBER,
-  GROOM_MOTHER_NAME,
+  
   GROOM_MOTHER_ACCOUNT_NUMBER,
   BRIDE_NAME,
   BRIDE_ACCOUNT_NUMBER,
-  BRIDE_FATHER_NAME,
+  
   BRIDE_FATHER_ACCOUNT_NUMBER,
-  BRIDE_MOTHER_NAME,
+  
   BRIDE_MOTHER_ACCOUNT_NUMBER,
 } from "../../config";
 
@@ -124,7 +124,7 @@ const CongratulatoryMoney = () => {
         ]}
       >
         <div>
-          <b>부 : {GROOM_FATHER_NAME}</b>
+          <b>부 : ""</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_FATHER_ACCOUNT_NUMBER}>
             <Button
@@ -137,7 +137,7 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
         <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 : {GROOM_MOTHER_NAME}</b>
+          <b>모 : ""</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
             <Button
@@ -175,7 +175,7 @@ const CongratulatoryMoney = () => {
         ]}
       >
         <div>
-          <b>부 : {BRIDE_FATHER_NAME}</b>
+          <b>부 : ""</b>
           <Divider type="vertical" />
           <CopyToClipboard text={BRIDE_FATHER_ACCOUNT_NUMBER}>
             <Button
@@ -188,7 +188,7 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
         <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 :{BRIDE_MOTHER_NAME}</b>
+          <b>모 : ""</b>
           <Divider type="vertical" />
           <CopyToClipboard text={BRIDE_MOTHER_ACCOUNT_NUMBER}>
             <Button
