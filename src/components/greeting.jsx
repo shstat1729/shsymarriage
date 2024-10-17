@@ -3,11 +3,7 @@ import styled from "styled-components";
 import { Divider } from "antd";
 import {
   GROOM_NAME,
-  GROOM_FATHER_NAME,
-  GROOM_MOTHER_NAME,
   BRIDE_NAME,
-  BRIDE_FATHER_NAME,
-  BRIDE_MOTHER_NAME,
 } from "../../config";
 import Flower from "../assets/flower1.png";
 
@@ -59,19 +55,17 @@ const Greeting = () => {
       </Divider>
       <Image data-aos="fade-up" src={Flower} />
       <Content data-aos="fade-up">
-        서로 마주 보며 다져온 사랑을
+        부부로서 하나의 길을 걷게 될
         <br />
         <br />
-        이제 함께 한곳을 바라보며 걸어갈 수 있는
+        힘찬 첫걸음을 내딛는 날, 함께해 주세요.
         <br />
         <br />
-        큰 사랑으로 키우고자 합니다.
+        귀한 걸음 하시어 따스한 마음으로 격려해 주신다면
         <br />
         <br />
-        저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게
-        <br />
-        <br />
-        앞날을 축복해 주시면 감사하겠습니다.
+        평생의 응원으로 여기며 살아가겠습니다.
+        
       </Content>
       <GroomBride data-aos="fade-up">
         {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
@@ -83,3 +77,6 @@ const Greeting = () => {
 };
 
 export default Greeting;
+
+
+
