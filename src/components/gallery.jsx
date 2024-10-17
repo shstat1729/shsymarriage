@@ -20,6 +20,7 @@ import GalleryPhoto14 from "../assets/15.jpeg";
 import GalleryPhoto15 from "../assets/16.jpeg";
 import GalleryPhoto16 from "../assets/17.jpeg";
 import GalleryPhoto17 from "../assets/18.jpeg";
+import GalleryPhoto18 from "../assets/1.jpeg";
 
 const Wrapper = styled.div`
   padding-top: 42px;
@@ -37,6 +38,10 @@ const Title = styled.p`
 `;
 
 const images = [
+  {
+    original: GalleryPhoto18,
+    thumbnail: GalleryPhoto18,
+  },
   {
     original: GalleryPhoto1,
     thumbnail: GalleryPhoto1,

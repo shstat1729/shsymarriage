@@ -1,7 +1,7 @@
 export const WEDDING_INVITATION_URL = "https://shsymarriage.netlify.app";
 export const KAKAOTALK_API_TOKEN = "397e300fbf9f3d2eeacaf7d6c7fe989f";
 export const KAKAOTALK_SHARE_IMAGE =
-  "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
+  "https://1drv.ms/i/s!Apk9jsgTG0K0gactJz6iJcrOnLkGaQ?e=rvOaFW";
 
 export const WEDDING_DATE = "2024년 12월 21일, 토요일 오전 11시 30분";
 export const WEDDING_LOCATION = "백주년 기념관 웨딩홀 네오트로";

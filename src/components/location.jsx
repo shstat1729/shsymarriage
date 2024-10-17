@@ -40,6 +40,9 @@ const Map = styled.div`
   padding: 0;
 `;
 
+
+
+
 const Location = () => {
   // 카카오 맵 불러오기
 
@@ -47,8 +50,8 @@ const Location = () => {
   const executeScript = () => {
     const scriptTag = document.createElement("script");
     const inlineScript = document.createTextNode(`new daum.roughmap.Lander({
-      "timestamp" : "1729141015285",
-      "key" : "2kx5v",
+      "timestamp" : "1729145515996",
+      "key" : "2kx7x",
       "mapWidth" : "640",
       "mapHeight" : "360"
   }).render();`);
@@ -99,7 +102,7 @@ const Location = () => {
       </Divider>
       <Image src={Flower} />
       <Map
-        id="daumRoughmapContainer1652464367301"
+        id="daumRoughmapContainer1729145515996"
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
