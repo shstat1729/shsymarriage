@@ -84,10 +84,7 @@ const CongratulatoryMoney = () => {
         <Title>축의금은 이곳으로 보내주세요</Title>
       </Divider>
       <Image src={Flower} />
-      <Content data-aos="fade-up">
-        
-      </Content>
-
+      
       <ButtonWrap>
         <ContactButton data-aos="fade-up" onClick={() => setGroomVisible(true)}>
           <CheckCircleTwoTone
