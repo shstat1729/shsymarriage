@@ -14,12 +14,7 @@ import GalleryPhoto8 from "../assets/9.jpeg";
 import GalleryPhoto9 from "../assets/10.jpeg";
 import GalleryPhoto10 from "../assets/11.jpeg";
 import GalleryPhoto11 from "../assets/12.jpeg";
-import GalleryPhoto12 from "../assets/13.jpeg";
-import GalleryPhoto13 from "../assets/14.jpeg";
-import GalleryPhoto14 from "../assets/15.jpeg";
-import GalleryPhoto15 from "../assets/16.jpeg";
-import GalleryPhoto16 from "../assets/17.jpeg";
-import GalleryPhoto17 from "../assets/1.jpeg";
+import GalleryPhoto12 from "../assets/1.jpeg";
 
 const Wrapper = styled.div`
   padding-top: 42px;
@@ -45,8 +40,8 @@ const StyledImageGallery = styled(ImageGallery)`
 
 const images = [
   {
-    original: GalleryPhoto17,
-    thumbnail: GalleryPhoto17,
+    original: GalleryPhoto12,
+    thumbnail: GalleryPhoto12,
   },
   {
     original: GalleryPhoto1,
@@ -91,26 +86,6 @@ const images = [
   {
     original: GalleryPhoto11,
     thumbnail: GalleryPhoto11,
-  },
-  {
-    original: GalleryPhoto12,
-    thumbnail: GalleryPhoto12,
-  },
-  {
-    original: GalleryPhoto13,
-    thumbnail: GalleryPhoto13,
-  },
-  {
-    original: GalleryPhoto14,
-    thumbnail: GalleryPhoto14,
-  },
-  {
-    original: GalleryPhoto15,
-    thumbnail: GalleryPhoto15,
-  },
-  {
-    original: GalleryPhoto16,
-    thumbnail: GalleryPhoto16,
   },
 
 ];
