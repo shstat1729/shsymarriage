@@ -144,6 +144,20 @@ const CongratulatoryMoney = () => {
         ]}
       >
         <div>
+          <b>신부 {BRIDE_NAME}</b>
+          <Divider type="vertical" />
+          <CopyToClipboard text={BRIDE_ACCOUNT_NUMBER}>
+            <Button
+              type="text"
+              style={{ padding: 0, margin: 0 }}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
+            >
+              {BRIDE_ACCOUNT_NUMBER}
+            </Button>
+          </CopyToClipboard>
+        </div>
+
+        <div>
           <b>부 : {BRIDE_FATHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={BRIDE_FATHER_ACCOUNT_NUMBER}>
@@ -157,19 +171,6 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
 
-        <div>
-          <b>신부 {BRIDE_NAME}</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={BRIDE_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {BRIDE_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
-        </div>
       </Modal>
     </Wrapper>
   );
