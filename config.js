@@ -1,4 +1,4 @@
-import HeartImage from "/assets/1.jpeg";
+import HeartImage from "./src/assets/1.jpeg";
 export const WEDDING_INVITATION_URL = "https://shsymarriage.netlify.app";
 export const KAKAOTALK_API_TOKEN = "397e300fbf9f3d2eeacaf7d6c7fe989f";
 export const KAKAOTALK_SHARE_IMAGE = {HeartImage};
