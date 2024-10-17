@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.p`
-  font-size: 2rem;
+  font-size: 20rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
@@ -26,7 +26,7 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-  font-size: 2rem;
+  font-size: 20rem;
   line-height: 1.75;
   opacity: 0.75;
   margin-bottom: 16px;
@@ -35,7 +35,7 @@ const Content = styled.p`
 `;
 
 const GroomBride = styled.p`
-  font-size: 1.25rem;
+  font-size: 10rem;
   line-height: 1.75;
   opacity: 0.85;
   margin-bottom: 0px;
