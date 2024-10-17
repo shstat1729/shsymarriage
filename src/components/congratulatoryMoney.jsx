@@ -113,7 +113,7 @@ const CongratulatoryMoney = () => {
         onCancel={() => setGroomVisible(false)}
         footer={[
           <Description>
-            계좌번호 클릭시,\n
+            계좌번호 클릭시,<br />
             붙여넣기 가능한 텍스트로 복사됩니다.
           </Description>,
         ]}
@@ -140,7 +140,7 @@ const CongratulatoryMoney = () => {
         onCancel={() => setBrideVisible(false)}
         footer={[
           <Description>
-            계좌번호 클릭시,\n
+            계좌번호 클릭시,<br />
             붙여넣기 가능한 텍스트로 복사됩니다.
           </Description>,
         ]}
