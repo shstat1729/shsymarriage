@@ -7,6 +7,11 @@ export const WEDDING_LOCATION = "백주년 기념관 웨딩홀 네오트로";
 export const GROOM_NAME = "박상호";
 export const GROOM_ACCOUNT_NUMBER = "우리은행 1002-347-211847";
 
+export const GROOM_FATHER_NAME = "박영환";
+export const GROOM_MOTHER_NAME = "김춘순";
 
 export const BRIDE_NAME = "곽수영";
 export const BRIDE_ACCOUNT_NUMBER = "우리은행 1002-342-138284";
+
+export const BRIDE_FATHER_NAME = "곽태운";
+export const BRIDE_MOTHER_NAME = "정영선";
