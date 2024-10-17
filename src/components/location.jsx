@@ -103,23 +103,10 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        대구 수성구 두산동 888-2번지
+        서울시 종로구 대학로3길 29
         <br />
-        호텔수성 수성스퀘어 3층 피오니홀
-        <br />
-        <br />
-        <Title>버스 이용시</Title>
-        <br />
-        <br />
-        410-1, 401 호텔수성 앞 하차
-        <br />
-        수성1-1, 수성3-1, 814 TBC방송국 앞 하차
-        <br />
-        <br />
-        <Title>지하철 이용시</Title>
-        <br />
-        <br />
-        3호선 수성못역 하차 (도보 10분)
+        지하철 1호선 종로5가역 2번 출구 5분거리, 4호선 혜화역 3번 출구 6분 거리
+
       </Content>
     </Wrapper>
   );
