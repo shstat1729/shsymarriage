@@ -17,5 +17,5 @@ export const BRIDE_ACCOUNT_NUMBER = "우리은행 1002-342-138284";
 
 export const BRIDE_FATHER_NAME = "곽태운";
 export const BRIDE_MOTHER_NAME = "정영선";
-export const BRIDE_FATHER_ACCOUNT_NUMBER = "";
+export const BRIDE_FATHER_ACCOUNT_NUMBER = "국민은행 022-21-0208-969";
 export const BRIDE_MOTHER_ACCOUNT_NUMBER = "";

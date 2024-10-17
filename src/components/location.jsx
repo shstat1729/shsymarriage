@@ -98,7 +98,10 @@ const Location = () => {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>오시는 길</Title>
+        <Title>오시는 길        
+        <br />  
+        백주년 기념관 웨딩홀 네오트로
+        </Title>
       </Divider>
       <Image src={Flower} />
       <Map
@@ -106,6 +109,8 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
+        백주년 기념관 웨딩홀 네오트로
+        <br />
         서울시 종로구 대학로3길 29
         <br />
         지하철 1호선 종로5가역 2번 출구 5분 거리
