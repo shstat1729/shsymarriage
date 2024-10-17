@@ -26,7 +26,7 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.75;
   opacity: 0.75;
   margin-bottom: 16px;
@@ -35,7 +35,7 @@ const Content = styled.p`
 `;
 
 const GroomBride = styled.p`
-  font-size: 2rem;
+  font-size: 1.25rem;
   line-height: 1.75;
   opacity: 0.85;
   margin-bottom: 0px;
