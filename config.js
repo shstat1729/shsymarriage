@@ -2,7 +2,7 @@ export const WEDDING_INVITATION_URL = "https://shsymarriage.netlify.app";
 export const KAKAOTALK_API_TOKEN = "397e300fbf9f3d2eeacaf7d6c7fe989f";
 
 export const WEDDING_DATE = "2024년 12월 21일, 토요일 오전 11시 30분";
-export const WEDDING_LOCATION = "한국교회 백주년 기념관 웨딩홀 네오트로";
+export const WEDDING_LOCATION = "한국교회 백주년 기념관 웨딩홀";
 
 export const GROOM_NAME = "박상호";
 export const GROOM_ACCOUNT_NUMBER = "우리은행 1002-347-211847";

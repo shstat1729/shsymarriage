@@ -100,7 +100,7 @@ const Location = () => {
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>오시는 길        
         <br />  
-        한국교회 백주년 기념관 웨딩홀 네오트로
+        한국교회 백주년 기념관 웨딩홀
         </Title>
       </Divider>
       <Image src={Flower} />
@@ -109,7 +109,7 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        한국교회 백주년 기념관 웨딩홀 네오트로
+        한국교회 백주년 기념관 웨딩홀
         <br />
         서울시 종로구 대학로3길 29
         <br />
