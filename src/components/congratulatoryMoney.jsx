@@ -7,7 +7,8 @@ import Flower from "../assets/flower3.png";
 import {
   GROOM_NAME,
   GROOM_ACCOUNT_NUMBER,
-  
+  GROOM_MOTHER_NAME,
+  GROOM_MOTHER_ACCOUNT_NUMBER,
   BRIDE_NAME,
   BRIDE_ACCOUNT_NUMBER,
   BRIDE_FATHER_NAME,
@@ -130,6 +131,20 @@ const CongratulatoryMoney = () => {
             </Button>
           </CopyToClipboard>
         </div>
+        <div style={{ marginTop: 24, marginBottom: 24 }}>
+          <b>모&nbsp;&nbsp;&nbsp;&nbsp;{GROOM_MOTHER_NAME}</b>
+          <Divider type="vertical" />
+          <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
+            <Button
+              type="text"
+              style={{ padding: 0, margin: 0 }}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
+            >
+              {GROOM_MOTHER_ACCOUNT_NUMBER}
+            </Button>
+          </CopyToClipboard>
+        </div>
+
       </Modal>
       <Modal
         title={<b>신부측 계좌번호</b>}

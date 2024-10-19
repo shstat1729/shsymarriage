@@ -10,7 +10,7 @@ export const GROOM_ACCOUNT_NUMBER = "우리은행 1002-347-211847";
 export const GROOM_FATHER_NAME = "박영환";
 export const GROOM_MOTHER_NAME = "김춘순";
 export const GROOM_FATHER_ACCOUNT_NUMBER = "";
-export const GROOM_MOTHER_ACCOUNT_NUMBER = "";
+export const GROOM_MOTHER_ACCOUNT_NUMBER = "국민은행 807-21-0104731";
 
 export const BRIDE_NAME = "곽수영";
 export const BRIDE_ACCOUNT_NUMBER = "우리은행 1002-342-138284";
