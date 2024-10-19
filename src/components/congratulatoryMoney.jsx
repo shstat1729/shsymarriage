@@ -131,7 +131,7 @@ const CongratulatoryMoney = () => {
             </Button>
           </CopyToClipboard>
         </div>
-        <div style={{ marginTop: 24, marginBottom: 24 }}>
+        <div>
           <b>모&nbsp;&nbsp;&nbsp;&nbsp;{GROOM_MOTHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
